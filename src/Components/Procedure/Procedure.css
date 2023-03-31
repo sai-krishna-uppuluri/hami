@@ -1,0 +1,73 @@
+
+
+.procedure-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1e1d;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.heading-procedure {
+    font-size: 42px;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.heading-procedure:hover {
+    color: gold;
+}
+
+
+.inner-container{
+    display: flex;
+}
+
+
+.procedure-inner-container{
+    height: 200px;
+    width: 200px;
+    border-radius: 12px;
+    background-color: #fff;
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 3rem;
+    background-color: #b59928;
+}
+
+
+.each-procedure-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.each-procedure-container h1 {
+    margin-top: 2rem;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+    color: #fff;
+}
+
+.icon{
+    color: #fff;
+}
+
+.procedure-inner-container:hover {
+    background-color: gold;
+    color: #000000;
+}
+
+
+@media screen and (max-width : 650px) {
+    .inner-container {
+        flex-direction: column;
+    }    
+}

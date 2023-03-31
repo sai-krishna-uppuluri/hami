@@ -1,0 +1,54 @@
+
+.services-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.each-service-container{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 0 #000;
+    border-radius: 12px;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 1rem ;
+    background-image: url('../../assets/background.mp4');
+    width: 250px;
+}
+
+.each-service-inner-container{
+    margin: 1rem ;
+    padding: 2rem;
+}
+
+.each-service-container h1 {
+    font-size: 18px;
+    margin-top: 2rem;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: roboto;
+    font-weight: 500;
+
+}
+
+.each-service-container h1:hover {
+    color: #e8bd31;
+}
+
+.service-videos{
+    width: 250px;
+}
+
+.service-btn{
+    width: 120px;
+    padding: 1rem;
+    background-color: #e8bd31;
+    border-radius: 12px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

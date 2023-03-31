@@ -1,0 +1,122 @@
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    padding: 1rem 2rem;
+}
+
+.nav-bar-logo-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-logo{
+    text-decoration: none;
+    color: gold;
+    font-size: 62px;
+    justify-self: start;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+  .nav-menu li {
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0 2rem;
+    text-align: center;
+  }
+
+  .nav-menu li:hover {
+    border-bottom: 2px solid goldenrod;
+    transition: 0.2sec ease;
+    color: gold;
+  }
+
+  .nav-link {
+    text-decoration: none;
+  }
+  
+ .nav-menu-small-screens{
+   display: none;
+ }
+
+ @media screen  and (min-width : 2000px){
+    .nav-logo {
+      font-size: 3rem;
+    }
+ }
+
+
+
+ @media screen  and (max-width : 650px){
+    .nav-container{
+      width: 100%;
+      padding: 0 3rem;
+    }
+
+    .nav-menu-small-screens {
+      display: unset;
+    }
+
+    .nav-menu {
+      display: none;
+    }
+    .nav-logo{
+      font-size: 42px;
+    }
+
+    .nav-menu-small-screens-overlay{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      top: 0;
+     left: 0;
+      background-color: black;
+      height: 100vh;
+      z-index: 5;
+      position:fixed;
+      width: 100%;
+      transition: .5s ease;
+    }
+
+    .nav-menu-small-screens-overlay .overlay-close{
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      cursor: pointer;
+    }
+
+    .nav-menu-small-screens-list{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      list-style-type: none;
+    }
+
+    .nav-menu-small-screens-list li{
+      color: gold;
+      font-size: 2rem;
+      cursor: pointer;
+      margin: 2rem;
+    }
+
+    .nav-menu-small-screens-list li:hover {
+      color: #ffffff;
+      transition: 0.3sec ease;
+    }
+
+ }

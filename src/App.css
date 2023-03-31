@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.head-text {
+  font-size: 42px;
+  font-family: roboto;
+  font-weight: 500;
+  color: #fff;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+.p-text {
+  font-size: 24px;
+  font-family: roboto;
+  font-weight: 500;
+  font-style: italic;
+  color: #fff;
+  letter-spacing: 2px;
+}

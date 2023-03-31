@@ -1,0 +1,51 @@
+
+.banner-section-container{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0,0,0,0.75) , rgba(0,0,0,0.75) ), url("../../assets/home-screen.jpg");
+    position: center;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-content:center;
+    background-size: cover;
+}
+
+.banner-header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    margin: 3rem 4rem;
+}
+
+.head-text{
+    color: #fff;
+    font-size: 62px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.p-text{
+    color: #fff;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.head-text:hover {
+    color: gold;
+}
+
+.p-text {
+    color: goldenrod;
+}
+
+
+@media screen and (max-width : 6510px) {
+    .head-text {
+        font-size: 42px;
+    }    
+}
