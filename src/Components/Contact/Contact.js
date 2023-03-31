@@ -3,7 +3,7 @@ import React from 'react'
 function Contact() {
   return (
     <div>
-      <h1> aas </h1>
+      <h1> sss</h1>
     </div>
   )
 }
